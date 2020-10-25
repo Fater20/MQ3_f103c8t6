@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"mq_3_f103c8t6\startup_stm32f103xb.o"
+"mq_3_f103c8t6\main.o"
+"mq_3_f103c8t6\stm32f1xx_it.o"
+"mq_3_f103c8t6\stm32f1xx_hal_msp.o"
+"mq_3_f103c8t6\stm32f1xx_hal_gpio_ex.o"
+"mq_3_f103c8t6\stm32f1xx_hal_adc.o"
+"mq_3_f103c8t6\stm32f1xx_hal_adc_ex.o"
+"mq_3_f103c8t6\stm32f1xx_hal.o"
+"mq_3_f103c8t6\stm32f1xx_hal_rcc.o"
+"mq_3_f103c8t6\stm32f1xx_hal_rcc_ex.o"
+"mq_3_f103c8t6\stm32f1xx_hal_gpio.o"
+"mq_3_f103c8t6\stm32f1xx_hal_dma.o"
+"mq_3_f103c8t6\stm32f1xx_hal_cortex.o"
+"mq_3_f103c8t6\stm32f1xx_hal_pwr.o"
+"mq_3_f103c8t6\stm32f1xx_hal_flash.o"
+"mq_3_f103c8t6\stm32f1xx_hal_flash_ex.o"
+"mq_3_f103c8t6\stm32f1xx_hal_exti.o"
+"mq_3_f103c8t6\stm32f1xx_hal_tim.o"
+"mq_3_f103c8t6\stm32f1xx_hal_tim_ex.o"
+"mq_3_f103c8t6\stm32f1xx_hal_uart.o"
+"mq_3_f103c8t6\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "MQ_3_f103c8t6\MQ_3_f103c8t6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MQ_3_f103c8t6.map" -o MQ_3_f103c8t6\MQ_3_f103c8t6.axf
